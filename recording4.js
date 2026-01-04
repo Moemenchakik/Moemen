@@ -11,13 +11,10 @@ function LoadAllCountires() {
     let ddl_countries = document.getElementById('ddl_countries');
     let list_country = document.getElementById('countries_list');
     let div_countries = document.getElementById('div_countries');
-    //la kel country (x hon btrmoz la kel county)
     countries.forEach(x => {
-        //hon 3melna options li hene l x y3ni kel country
         let option = document.createElement('option');
-        // hon 3m nktub kl x b esmu ( l value taba3u )
         option.innerHTML = x.name;
-        // haydi command btkhallina 
+
         ddl_countries.appendChild(option);
 
         let li = document.createElement('li');

@@ -16,7 +16,7 @@ let student = {
                 {
                     name:'Tripoli',
                     country:'Lebanon',
-                    street:'Al Utur',
+                    street:'somewhere',
                 },
 
                 study: function(){
